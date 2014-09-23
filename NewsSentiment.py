@@ -12,8 +12,8 @@ class News:
 
    def __init__(self, url, regex):
       self.url = url
-      self.sentiments = []
       self.regex = regex
+      self.sentiments = []
 
    def getSentiments(self, term):
       return self._sentiments(self._articleLinks(term))
