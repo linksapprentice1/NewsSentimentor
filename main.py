@@ -1,7 +1,6 @@
-from __future__ import division
+import pygal
 import NewsSentiment
 import threader
-import pygal
 import webbrowser
 
 def makeChart(term):
