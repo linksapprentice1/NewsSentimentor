@@ -5,7 +5,7 @@ import webbrowser
 
 def makeChart(term):
    chart = pygal.Box(range=(-1, 1))
-   chart.title = 'News Sentiments for Term: ' + term
+   chart.title = 'News Sentiments for Term \'' + term + '\''
 
    cnn = NewsSentiment.Cnn()
    fox = NewsSentiment.Fox()
